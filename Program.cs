@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Nhap nam muon kiem tra: ");
+        Console.Write("Nhap nam muon kiem tra: ");
         int year = Convert.ToInt32(Console.ReadLine());
         bool laNamNhuan = false;
 

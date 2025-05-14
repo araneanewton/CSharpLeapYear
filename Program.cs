@@ -4,8 +4,8 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Nhap nam muon kiem tra: ");
-        int year = int.Parse(Console.ReadLine());
+        Console.WriteLine("Nhap nam muon kiem tra: ");
+        int year = Convert.ToInt32(Console.ReadLine());
         bool laNamNhuan = false;
 
         bool chiaHetCho4 = year % 4 == 0;
